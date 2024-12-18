@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romiko's Web Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Web Design Portfolio</h1>
+            <p>Check out my latest web designs, images, and videos. Let's build something amazing together!</p>
+        </div>
+    </header>
+
+    <!-- Portfolio Section (Images and Videos) -->
+    <section id="portfolio">
+        <h2>My Work</h2>
+        
+        <!-- Image Showcase -->
+        <div class="gallery">
+            <div class="portfolio-item">
+                <img src="portfolio-image1.jpg" alt="Project 1" class="portfolio-img">
+                <p>Project 1: A modern landing page for a tech startup.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolio-image2.jpg" alt="Project 2" class="portfolio-img">
+                <p>Project 2: A blog website with a clean, minimalist design.</p>
+            </div>
+        </div>
+
+        <!-- Video Showcase -->
+        <div class="video-gallery">
+            <div class="video-item">
+                <video controls class="portfolio-video">
+                    <source src="portfolio-video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Project 3: A short demo of a responsive e-commerce site.</p>
+            </div>
+            <div class="video-item">
+                <video controls class="portfolio-video">
+                    <source src="portfolio-video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Project 4: A user-friendly dashboard for a mobile app.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you're interested in working together, feel free to reach out!</p>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Romiko Web Design</p>
+    </footer>
+
+</body>
+</html>
